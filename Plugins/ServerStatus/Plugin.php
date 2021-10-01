@@ -269,7 +269,7 @@ EOF;
 		}
 		if(!empty($options->plugin('ServerStatus')->UptimeKey)){
 			echo "<script src=\"https://cdn.jsdelivr.net/npm/mustache@4.0.1/mustache.min.js\"></script>\n";
-			echo "<script src=\"https://cdn.jsdelivr.net/gh/wf-nb/static@latest/System/typecho/plugin/ServerStatus/js/cup.js\"></script>\n";
+			echo "<script src=\"https://cdn.jsdelivr.net/gh/wf-nb/static@latest/Application/typecho/plugin/ServerStatus/js/cup.js\"></script>\n";
 		}
 		// 插入控制台标识
 		echo '<script>console.log("\n %c ServerStatus Plugin Of Typecho By Weifeng ","color:#fff; background: linear-gradient(to right , #7A88FF, #d27aff); padding:5px; border-radius: 10px;");console.log("\n %c 插件：https://wfblog.net/archives/serverstatus_plugin.html","color:#fff; background: linear-gradient(to right , #7A88FF, #d27aff); padding:5px; border-radius: 10px;"); </script>';
